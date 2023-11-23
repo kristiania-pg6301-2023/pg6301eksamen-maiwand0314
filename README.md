@@ -32,6 +32,9 @@ OpenChat is a chat application asked by our instructor to develop which comprise
 - Modal Styling
 - Open id authentication from the lecture content
 
+## Complications 
+The message  when someone else logs in and sends message it does not work, the message does not show up on the right, but for me it works
+
 ## Installation
 
 OpenChat requires [Node.js](https://nodejs.org/) v10+ to run.
