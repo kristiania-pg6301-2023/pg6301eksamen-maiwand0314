@@ -28,8 +28,9 @@ OpenChat is a chat application asked by our instructor to develop which comprise
 - [Concurrently] - Run commands concurrently
 - [Express] - fast node.js network app framework 
 
-
-
+## Stuff that I got helped from 
+- Modal Styling
+- Open id authentication from the lecture content
 
 ## Installation
 
@@ -62,4 +63,4 @@ npm install
 ```sh
 npm run dev
 ```
-
+[Demo](https://openchat-4bfb4f680def.herokuapp.com/)
