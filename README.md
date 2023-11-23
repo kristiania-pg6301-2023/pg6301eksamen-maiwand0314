@@ -63,5 +63,6 @@ npm install
 ```sh
 npm run dev
 ```
-[GithubRepo](github.com/kristiania-pg6301-2023/pg6301eksamen-maiwand0314/)
+[GithubRepo](https://github.com/kristiania-pg6301-2023/pg6301eksamen-maiwand0314)
+ 
 [Demo](https://openchat-4bfb4f680def.herokuapp.com/)
