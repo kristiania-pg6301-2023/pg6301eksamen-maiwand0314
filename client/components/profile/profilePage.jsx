@@ -3,21 +3,19 @@ import { useNavigate } from "react-router-dom";
 
 export function ProfilePage() {
   const navigate = useNavigate();
-
-  async function handleLogOut(e) {
-    e.preventDefault();
-    await fetch("/api/login", { method: "DELETE" });
-    await reload();
-    navigate("/");
-  }
+  let selectedUser=JSON.parse(window.sessionStorage.getItem("user"))
+ 
 
   return (
-    <>
-      <h2>User profile</h2>
-      <form onSubmit={handleLogOut}>
-        <button>Log out</button>
-      </form>
+    <div className="cardUpper">
+      <div class="card">
+  <img src={selectedUser.picture} alt="Avatar" style={{width:"100%",height:"100%"}}/>
+  <div class="container">
+    <h4><b>{ selectedUser.name}</b></h4>
+  </div>
+  <a href="/chat">Back to chat</a>
+</div>
     
-    </>
+    </div>
   );
 }
